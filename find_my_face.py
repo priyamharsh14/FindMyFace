@@ -43,7 +43,11 @@ else:
     print("[-] Register your face first using register_my_face.py")
     exit()
 
-os.chdir(args[0])
+try:
+	os.chdir(args[0])
+except FileNotFoundError:
+	parser.error("[-] Please enter a valid path to the pictures")
+
 print()
 
 if "my_pictures" in os.listdir():
