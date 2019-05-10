@@ -1,5 +1,6 @@
-# FindMyFace
+<h1 align="center">FindMyFace</h1>
 A face recognition tool written in Python3 implementing image processing and multi-threading
+<br>
 
 ## Installation:
 
